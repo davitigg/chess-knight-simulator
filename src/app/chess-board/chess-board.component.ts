@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { ChessService } from '../chess.service';
 
 @Component({
@@ -10,7 +10,4 @@ export class ChessBoardComponent {
   board = this.chessService.board;
 
   constructor(private chessService: ChessService) {}
-
-  ngOnInit() {
-  }
 }

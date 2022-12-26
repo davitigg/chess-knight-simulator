@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import { timeout } from 'rxjs';
 import { ChessService } from './chess.service';
 import { Piece, pieceUrl } from './piece';
 import { Square } from './square';
