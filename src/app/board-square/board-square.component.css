@@ -1,0 +1,66 @@
+div {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  position: relative;
+}
+.Square-Name {
+  position: absolute;
+  width: 14px;
+  height: 16px;
+  left: 0px;
+  top: 0px;
+}
+.Square-Number {
+  position: absolute;
+  width: 14px;
+  height: 16px;
+  right: 0px;
+  bottom: 0px;
+}
+.piece {
+  width: 75%;
+
+}
+
+.Board-Square {
+  width: 72px;
+  height: 72px;
+  background: #e8edf9;
+  
+}
+
+
+.Overlay-Active {
+  /* Overlay */
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  /* Active */
+
+  background: #7b61ff;
+  opacity: 0.5;
+}
+.Overlay-Hint {
+  /* Overlay */
+
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: calc(50% - 24px / 2);
+  top: calc(50% - 24px / 2);
+
+  /* Active */
+
+  background: #7b61ff;
+  opacity: 0.5;
+  border-radius: 12px;
+}

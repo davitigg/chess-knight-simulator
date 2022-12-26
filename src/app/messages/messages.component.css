@@ -1,0 +1,17 @@
+div {
+  color: #9299af;
+  width: 250px;
+}
+.clear {
+  color: #333;
+  background-color: #eee;
+  margin-bottom: 12px;
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.clear:hover {
+  color: white;
+  background-color: #42545C;
+}

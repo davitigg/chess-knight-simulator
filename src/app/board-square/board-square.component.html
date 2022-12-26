@@ -1,0 +1,27 @@
+<div
+  class="Board-Square"
+  [ngStyle]="{ background: getSquareBackgroundColor(), cursor: getCursor() }"
+  (click)="onClick(square)"
+>
+  <!-- {{ square.color }} -->
+  <div [ngClass]="getOverlayClass()"></div>
+  <div
+    *ngIf="getSquareName() == 'a'"
+    [ngStyle]="{ color: getSquareTextColor() }"
+    class="Square-Name"
+  >
+    {{ getSquareNumber() }}
+  </div>
+  <img
+    *ngIf="square.piece != null"
+    class="piece"
+    src="{{ getPiece(square) }}"
+  />
+  <div
+    *ngIf="getSquareNumber() == 1"
+    [ngStyle]="{ color: getSquareTextColor() }"
+    class="Square-Number"
+  >
+    {{ getSquareName() }}
+  </div>
+</div>

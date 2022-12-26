@@ -1,0 +1,11 @@
+<div>
+  <button
+    type="button"
+    class="clear"
+    (click)="chessService.resetBoard(); messageService.clear()"
+  >
+    Reset Game
+  </button>
+  <h2>Messages:</h2>
+  <div *ngFor="let message of messageService.messages">{{ message }}</div>
+</div>

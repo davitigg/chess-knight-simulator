@@ -1,0 +1,10 @@
+<div class="Board-Named">
+  <h1>Chess Simulator</h1>
+  <table class="Board">
+    <tr *ngFor="let row of board">
+      <td *ngFor="let square of row">
+        <app-board-square [square]="square"></app-board-square>
+      </td>
+    </tr>
+  </table>
+</div>
