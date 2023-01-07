@@ -1,10 +1,7 @@
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/angular-ivy-5bktkd?file=README.md)
 # ChessSimulator
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
-
-## stackblitz
-
-https://stackblitz.com/edit/angular-ivy-5bktkd?file=README.md
 
 ## Development server
 
