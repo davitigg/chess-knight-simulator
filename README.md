@@ -1,6 +1,6 @@
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/angular-ivy-5bktkd?file=README.md)
 
-# ChessSimulator
+# Chess Knight Simulator
 
 This is a small Angular application that allows you to move knights on a chessboard.
 
