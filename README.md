@@ -1,28 +1,29 @@
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/angular-ivy-5bktkd?file=README.md)
+
 # ChessSimulator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
+This is a small Angular application that allows you to move knights on a chessboard.
 
-## Development server
+## Development Server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+To run the development server:
 
-## Code scaffolding
+1. Execute the command: `ng serve`
+2. Navigate to: `http://localhost:4200/`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The application will automatically reload if you make changes to any source files.
 
-## Build
+## Building the Project
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To build the project:
 
-## Running unit tests
+1. Run: `ng build`
+2. The build artifacts will be stored in the `dist/` directory.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Moving the Knight
 
-## Running end-to-end tests
+This application simulates the movement of a knight on a chessboard according to standard chess rules.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Further Help
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+For more information on Angular, refer to the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
